@@ -7,5 +7,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage ('Hai') {
+            steps {
+                echo 'Hai this is viswanadha reddy'
+            }
+        }
     }
+   
 }
